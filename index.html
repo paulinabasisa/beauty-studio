@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Beauty Studio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header>
+        <h1>Beauty Studio</h1>
+
+        <!-- MENU DE NAVEGAÇÃO -->
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+
+    <!-- SEÇÃO PRINCIPAL -->
+
+    <section class="hero" id="inicio">
+
+        <!-- TEXTO PRINCIPAL -->
+
+        <div class="hero-text">
+            <h2>Realce a sua beleza</h2>
+
+            <p>
+                Cuidados de beleza feitos especialmente para você.
+            </p>
+
+            <a href="#contacto" class="botao-agendar">
+                Agendar horário
+            </a>
+        </div>
+
+
+        <!-- IMAGEM PRINCIPAL -->
+
+        <div class="hero-image">
+            <img
+                src="imagens/beleza.jpg"
+                alt="Mulher recebendo cuidados de beleza"
+            >
+        </div>
+
+    </section>
+
+
+    <!-- SEÇÃO SOBRE NÓS -->
+
+    <section class="sobre" id="sobre">
+
+        <h2>Sobre nós</h2>
+
+        <p>
+            No Beauty Studio, cuidamos da sua beleza com carinho,
+            dedicação e profissionalismo.
+        </p>
+
+    </section>
+
+
+    <!-- SEÇÃO SERVIÇOS -->
+
+    <section class="servicos" id="servicos">
+
+        <h2>Nossos Serviços</h2>
+
+        <!-- CARTÕES DE SERVIÇOS -->
+
+        <div class="servicos-container">
+
+            <!-- SERVIÇO 1 -->
+
+            <div class="servico">
+                <div class="icone">✨</div>
+
+                <h3>Skincare</h3>
+
+                <p>
+                    Cuidados especiais para deixar a sua pele saudável e radiante.
+                </p>
+            </div>
+
+
+            <!-- SERVIÇO 2 -->
+
+            <div class="servico">
+                <div class="icone">💄</div>
+
+                <h3>Maquiagem</h3>
+
+                <p>
+                    Maquiagem para realçar a sua beleza em qualquer ocasião.
+                </p>
+            </div>
+
+
+            <!-- SERVIÇO 3 -->
+
+            <div class="servico">
+                <div class="icone">💇‍♀️</div>
+
+                <h3>Cabelo</h3>
+
+                <p>
+                    Cuidados e tratamentos para manter o seu cabelo bonito e saudável.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SEÇÃO CONTACTO -->
+
+    <section class="contacto" id="contacto">
+
+        <h2>Entre em Contacto</h2>
+
+        <form>
+
+            <!-- CAMPO NOME -->
+
+            <label for="nome">Nome</label>
+
+            <input
+                type="text"
+                id="nome"
+                placeholder="Digite o seu nome"
+                required
+            >
+
+
+            <!-- CAMPO EMAIL -->
+
+            <label for="email">Email</label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Digite o seu email"
+                required
+            >
+
+
+            <!-- CAMPO MENSAGEM -->
+
+            <label for="mensagem">Mensagem</label>
+
+            <textarea
+                id="mensagem"
+                placeholder="Escreva a sua mensagem"
+                required
+            ></textarea>
+
+
+            <!-- BOTÃO -->
+
+            <button type="submit">
+                Enviar mensagem
+            </button>
+
+        </form>
+
+
+        <!-- MENSAGEM DE SUCESSO -->
+
+        <p id="mensagem-sucesso"></p>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+        <p>&copy; 2026 Beauty Studio. Todos os direitos reservados.</p>
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
